@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/Practice-DevOps3/ISE3.git'
+                git 'https://github.com/shwetasugure/ISE3.1.git'
             }
         }
         stage('Build Java Application') {
